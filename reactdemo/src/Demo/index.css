@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.list-item {
+    height: 28px;
+    text-align: center;
+    font-size: 16px;
+    color: #999999;
+    position: relative;
+}
+
+.item-line {
+    background-color: #E63A74;
+    height: 1px;
+    width: 32px;
+    position: fixed;
+    left: 20px;
+    top: 31px;
+}
+
+.art-title {
+    color: #333333;
+    width: 195px;
+    margin-top: 21px;
+    font-size: 17px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* autoprefixer: off */
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on */
+}
